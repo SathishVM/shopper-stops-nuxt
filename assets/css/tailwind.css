@@ -29,3 +29,9 @@
     @apply text-base;
   }
 }
+
+@layer components {
+  .container {
+    @apply md:px-10;
+  }
+}
