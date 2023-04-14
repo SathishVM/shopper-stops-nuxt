@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-type ButtonColors =
+type ButtonColor =
   | 'primary'
   | 'success'
   | 'danger'
@@ -8,11 +8,11 @@ type ButtonColors =
   | 'dark'
   | 'white'
 
-type ButtonSizes = 'big' | 'medium' | 'small'
+type ButtonSize = 'big' | 'medium' | 'small'
 
 type Props = {
-  color?: ButtonColors
-  size?: ButtonSizes
+  color?: ButtonColor
+  size?: ButtonSize
   disabled?: boolean
   loading?: boolean
 }
