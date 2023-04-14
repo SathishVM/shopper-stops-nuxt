@@ -11,14 +11,19 @@
   "devDependencies": {
     "@nuxt/devtools": "^0.3.1",
     "@tailwindcss/typography": "^0.5.9",
-    "nuxt": "^3.3.3"
+    "nuxt": "^3.3.3",
+    "nuxt-icon": "^0.3.3"
   },
   "dependencies": {
     "@nuxtjs/google-fonts": "^3.0.0",
     "@nuxtjs/strapi": "^1.9.0",
     "@nuxtjs/tailwindcss": "^6.6.5",
     "@vueuse/nuxt": "^9.13.0",
-    "daisyui": "^2.51.5",
     "nuxt-headlessui": "^1.1.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "consola": "3.0.1"
+    }
   }
 }

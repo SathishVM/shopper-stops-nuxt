@@ -7,10 +7,12 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@vueuse/nuxt',
     '@nuxtjs/strapi',
+    'nuxt-icon',
   ],
   googleFonts: {
     families: {
       Jost: true,
     },
+    download: true,
   },
 })
