@@ -1,12 +1,13 @@
 <script lang="ts" setup>
 const user = useStrapiUser()
 const auth = useStrapiAuth()
+const router = useRouter()
 
 const [isMobileNavOpen, toggleMobileNav] = useToggle(false)
 
 function logout() {
   auth.logout()
-  alert("You're successfully logged out!")
+  reloadNuxtApp()
 }
 </script>
 

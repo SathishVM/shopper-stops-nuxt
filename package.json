@@ -11,6 +11,7 @@
   "devDependencies": {
     "@nuxt/devtools": "^0.3.1",
     "@tailwindcss/typography": "^0.5.9",
+    "consola": "3.0.1",
     "nuxt": "^3.3.3",
     "nuxt-icon": "^0.3.3"
   },
@@ -18,8 +19,12 @@
     "@nuxtjs/google-fonts": "^3.0.0",
     "@nuxtjs/strapi": "^1.9.0",
     "@nuxtjs/tailwindcss": "^6.6.5",
+    "@tailwindcss/forms": "^0.5.3",
     "@vueuse/nuxt": "^9.13.0",
-    "nuxt-headlessui": "^1.1.1"
+    "nuxt-headlessui": "^1.1.1",
+    "vee-validate": "^4.8.5",
+    "vue-toast-notification": "^3.0",
+    "yup": "^1.1.1"
   },
   "pnpm": {
     "overrides": {

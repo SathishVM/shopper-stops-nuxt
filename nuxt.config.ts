@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxtjs/strapi',
     'nuxt-icon',
   ],
+  css: ['vue-toast-notification/dist/theme-default.css'],
   googleFonts: {
     families: {
       Jost: true,

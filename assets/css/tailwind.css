@@ -22,4 +22,28 @@
   h6 {
     @apply text-sm sm:text-base;
   }
+
+  /* TailwindCSS Form Plugin CSS overrides */
+  [type='text'],
+  [type='email'],
+  [type='url'],
+  [type='password'],
+  [type='number'],
+  [type='date'],
+  [type='datetime-local'],
+  [type='month'],
+  [type='search'],
+  [type='tel'],
+  [type='time'],
+  [type='week'],
+  [multiple],
+  textarea,
+  select {
+    @apply border border-gray-300 focus:border-black focus:ring-transparent;
+  }
+
+  [type='checkbox'],
+  [type='radio'] {
+    @apply border-gray-300 text-black focus:ring-0;
+  }
 }

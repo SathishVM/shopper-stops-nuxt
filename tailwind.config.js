@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -22,9 +23,9 @@ module.exports = {
         'dark-': colors.gray,
       },
       fontFamily: {
-        jost: 'Jost',
+        jost: ['Jost', ...defaultTheme.fontFamily.sans],
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 }
