@@ -94,4 +94,9 @@ async function resetPassword() {}
       </VeeForm>
     </div>
   </div>
+
+  <ForgotPasswordModal
+    :show="showResetPasswordModal"
+    @close="toggleResetPasswordModal"
+  />
 </template>
