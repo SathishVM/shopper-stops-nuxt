@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/strapi',
     'nuxt-icon',
+    '@vee-validate/nuxt',
   ],
   css: ['vue-toast-notification/dist/theme-default.css'],
   googleFonts: {
@@ -15,5 +16,14 @@ export default defineNuxtConfig({
       Jost: true,
     },
     download: true,
+  },
+  veeValidate: {
+    autoImports: true,
+    componentNames: {
+      Form: 'VeeForm',
+      Field: 'VeeField',
+      FieldArray: 'VeeFieldArray',
+      ErrorMessage: 'VeeErrorMessage',
+    },
   },
 })

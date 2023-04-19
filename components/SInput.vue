@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { useField } from 'vee-validate'
 import { InputHTMLAttributes } from 'vue'
 
 type InputSize = 'big' | 'medium' | 'small'
@@ -11,6 +10,7 @@ interface Props extends InputHTMLAttributes {
 
 const props = withDefaults(defineProps<Props>(), {
   size: 'medium',
+  type: 'text',
 })
 
 const { value, errorMessage } = useField(props.name)

@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { Form as VeeForm } from 'vee-validate'
 import { InferType, object as yupObject, string as yupString } from 'yup'
 
 defineProps<{ show: boolean }>()

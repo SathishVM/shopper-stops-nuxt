@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { Form as VeeForm } from 'vee-validate'
 import { InferType, object as yupObject, string as yupString } from 'yup'
 
 const auth = useStrapiAuth()
@@ -34,8 +33,6 @@ async function login(values: LoginValues) {
 }
 
 const [showResetPasswordModal, toggleResetPasswordModal] = useToggle(false)
-
-async function resetPassword() {}
 </script>
 
 <template>
