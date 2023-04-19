@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@vee-validate/nuxt',
   ],
-  css: ['vue-toast-notification/dist/theme-default.css'],
   googleFonts: {
     families: {
       Jost: true,

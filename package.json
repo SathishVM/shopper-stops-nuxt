@@ -23,7 +23,6 @@
     "@vee-validate/nuxt": "^4.8.6",
     "@vueuse/nuxt": "^9.13.0",
     "nuxt-headlessui": "^1.1.1",
-    "vue-toast-notification": "^3.0",
     "yup": "^1.1.1"
   },
   "pnpm": {
